@@ -1,20 +1,20 @@
 ### Environment Setup
 
-#### Install latest stable version of NodeJS [https://nodejs.org/en/]
+#### Install latest stable version of [NodeJS](https://nodejs.org/en/)
 ```
 wget http://nodejs.org/dist/[version]/node-[version]-linux-x64.tar.gz
 
 sudo tar -xf node-[version]-linux-x64.tar.gz --directory /usr/local --strip-components 1
 ```
 
-#### Install ZSH and Oh-my-zsh [https://github.com/robbyrussell/oh-my-zsh]
+#### Install ZSH and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 ```
 sudo apt install zsh -y
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-#### Install fonts [https://github.com/hbin/top-programming-fonts]
+#### Install fonts [Top Programming Fonts](https://github.com/hbin/top-programming-fonts)
 ```
 curl -L https://github.com/hbin/top-programming-fonts/raw/master/install.sh | bash
 ```
@@ -39,12 +39,12 @@ mkdir ~/.vim/colors &&
 cp -a ~/.vim/bundle/vim-colorschemes/colors/* ~/.vim/colors
 ```
 
-#### Generate SSH keys [https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604]
+#### Generate SSH keys [How-To](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604)
 ```
 ssh-keygen
 ```
 
-#### Install Yarn Package Manager [https://yarnpkg.com/en/docs/usage]
+#### Install [Yarn Package Manager](https://yarnpkg.com/en/docs/usage)
 ```
 sudo npm install -g yarn
 ```
