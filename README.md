@@ -1,18 +1,13 @@
 ### Environment Setup
 
-#### Install latest stable version of NodeJS
+#### Install latest stable version of NodeJS [https://nodejs.org/en/]
 ```
 wget http://nodejs.org/dist/[version]/node-[version]-linux-x64.tar.gz
 
 sudo tar -xf node-[version]-linux-x64.tar.gz --directory /usr/local --strip-components 1
 ```
 
-#### Install Yarn
-```
-sudo npm install -g yarn
-```
-
-#### Install ZSH and Oh-my-zsh
+#### Install ZSH and Oh-my-zsh [https://github.com/robbyrussell/oh-my-zsh]
 ```
 sudo apt install zsh -y
 
@@ -44,7 +39,13 @@ mkdir ~/.vim/colors &&
 cp -a ~/.vim/bundle/vim-colorschemes/colors/* ~/.vim/colors
 ```
 
-#### Generate SSH keys
+#### Generate SSH keys [https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604]
 ```
 ssh-keygen
 ```
+
+#### Install Yarn Package Manager [https://yarnpkg.com/en/docs/usage]
+```
+sudo npm install -g yarn
+```
+
