@@ -14,7 +14,7 @@ sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-#### Install fonts [Top Programming Fonts](https://github.com/hbin/top-programming-fonts)
+#### Install ['Top Programming Fonts'](https://github.com/hbin/top-programming-fonts)
 ```
 curl -L https://github.com/hbin/top-programming-fonts/raw/master/install.sh | bash
 ```
@@ -39,7 +39,7 @@ mkdir ~/.vim/colors &&
 cp -a ~/.vim/bundle/vim-colorschemes/colors/* ~/.vim/colors
 ```
 
-#### Generate SSH keys [How-To](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604)
+#### [Generate SSH keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604)
 ```
 ssh-keygen
 ```
